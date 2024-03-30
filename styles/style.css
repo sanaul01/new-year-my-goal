@@ -1,0 +1,72 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color{
+    color: #005FAC;
+}
+
+/* header section styles */
+
+header{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.section-container{
+    color: #FFFFFF;
+    text-align: right;
+    width: 30%;
+    margin-left: 60%;
+    padding: 140px 0px;
+}
+
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.section-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-btn{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+    color: #005FAC;
+    font-weight: 600;
+}
+
+
+/* failure section styles */
+
+.failure-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin: 120px 175px 120px 130px;
+    
+}
+
+.failure-container img{
+    height: 600px;
+ padding: 50px;
+}
+
+.failure-section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.failure-section-description{
+    color: #757575;
+    
+}
+li{
+    color: #757575;
+}
